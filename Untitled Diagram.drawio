@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-04T22:29:22.160Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="ezo9PCnctfY9ZqzQQaXY" version="21.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-04T22:47:49.837Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="-oREmVzeyNq1v7K29fqF" version="21.6.2" type="github">
   <diagram name="Page-1" id="ELlTo9OpQP3YYbNFEfGA">
     <mxGraphModel dx="1078" dy="807" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="413" pageHeight="291" math="0" shadow="0">
       <root>
@@ -26,9 +26,6 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="BZ9eJyMp1eCeKyl2T3HH-4" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="240" y="110" width="40" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="BZ9eJyMp1eCeKyl2T3HH-5" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/App_Service_Environments.svg;" vertex="1" parent="1">
           <mxGeometry x="240" y="110" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BZ9eJyMp1eCeKyl2T3HH-6" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/CDN_Profiles.svg;" vertex="1" parent="1">
@@ -82,17 +79,8 @@
             <mxPoint x="220" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BZ9eJyMp1eCeKyl2T3HH-27" value="&lt;font color=&quot;#000000&quot;&gt;App Service EU WEST&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="BZ9eJyMp1eCeKyl2T3HH-27" value="&lt;font color=&quot;#000000&quot;&gt;Scale Set EU WEST&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0;fontColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="280" y="110" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="BZ9eJyMp1eCeKyl2T3HH-28" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Blob_Block.svg;" vertex="1" parent="1">
-          <mxGeometry x="240" y="10" width="40" height="32" as="geometry" />
-        </mxCell>
-        <mxCell id="BZ9eJyMp1eCeKyl2T3HH-30" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.507;entryY=1.013;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BZ9eJyMp1eCeKyl2T3HH-5" target="BZ9eJyMp1eCeKyl2T3HH-28">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="170" y="150" as="sourcePoint" />
-            <mxPoint x="220" y="100" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="BZ9eJyMp1eCeKyl2T3HH-31" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_cloud.svg;" vertex="1" parent="1">
           <mxGeometry x="-40" y="115" width="50" height="31.5" as="geometry" />
@@ -102,9 +90,6 @@
             <mxPoint x="170" y="150" as="sourcePoint" />
             <mxPoint x="220" y="100" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="BZ9eJyMp1eCeKyl2T3HH-33" value="Azure Blob storage" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="200" y="-20" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BZ9eJyMp1eCeKyl2T3HH-34" value="CDNs" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="124" y="20" width="60" height="30" as="geometry" />
@@ -120,6 +105,9 @@
         </mxCell>
         <mxCell id="BZ9eJyMp1eCeKyl2T3HH-38" value="Internet" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-44" y="84" width="58" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="BZ9eJyMp1eCeKyl2T3HH-39" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/VM_Scale_Sets.svg;" vertex="1" parent="1">
+          <mxGeometry x="243.5" y="113.5" width="33" height="33" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
